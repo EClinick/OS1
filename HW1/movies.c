@@ -29,6 +29,21 @@ Returns:
 #include <stdlib.h>
 #include <string.h>
 
+/*
+Summary: Struct to store information about a movie
+Fields:
+    - char *title - the title of the movie
+    - int year - the year the movie was released
+    - char *languages[5] - the languages the movie is available in
+    - int num_languages - the number of languages the movie is available in
+    - double rating - the rating value of the movie
+    - struct movie *next - pointer to the next movie in the linked list
+The use of a Linked List is to store the movies in a way that allows for easy traversal and access to the data. 
+It is also useful for adding and removing movies from the list.
+
+*/
+
+
 struct movie {
     char *title; // The title of the movie
     int year; // The year the movie was released
@@ -108,9 +123,11 @@ struct movie *processFile(char *filePath, int *movieCount) {
         exit(1);
     }
 
-    char *currLine = NULL;
-    size_t len = 0;
-    ssize_t nread;
+    char *currLine = NULL; // Current line in the file
+    size_t len = 0; // Length of the buffer
+    ssize_t nread; // Number of characters read in getline
+
+    // Initialize the linked list
     struct movie *head = NULL;
     struct movie *tail = NULL;
     *movieCount = 0;
@@ -195,8 +212,8 @@ Returns: None
 
 // Function for choice 2
 void showHighestRatedMovies(struct movie *list) {
-    // We need to find the highest rated movie for each year
-    // Since years are between 1900 and 2021, we can use an array indexed by year - 1900
+    //Finds the highest rated movie for each year
+    // Since years are between 1900 and 2021, use an array indexed by year - 1900
     struct movie *highestRated[122]; // From 1900 to 2021 inclusive
     for (int i = 0; i < 122; i++) {
         highestRated[i] = NULL;
