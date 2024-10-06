@@ -5,6 +5,25 @@
 */
 
 
+/*
+Summary: This program reads a file of movies and allows the user to select from a menu of options to display movies based on the year, rating, or language.
+Paramaters:
+    - The program takes in a file of movies as a command line argument
+    - The program reads the file and creates a linked list of movie structs
+    - The program displays a menu of options to the user
+    - The user can select from the following options:
+        1. Show movies released in the specified year
+        2. Show highest rated movie for each year
+        3. Show the title and year of release of all movies in a specific language
+        4. Exit from the program
+    - The program will continue to display the menu until the user selects the exit option
+    - The program will free the linked list of movie structs before exiting
+Returns:
+    - The program will return EXIT_SUCCESS if it completes successfully
+    - The program will return EXIT_FAILURE if there is an error
+
+*/
+
 
 #include <stdio.h>
 #include <stdlib.h>
