@@ -9,5 +9,5 @@ To compile HW1, run this command:
 
 To run the program, run this command:
 
-```./movies```
+```./movies_by_year```
 
