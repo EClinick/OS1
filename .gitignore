@@ -1,0 +1,30 @@
+# Build directory
+target/
+
+# Rust
+**/*.rs.bk
+Cargo.lock
+
+# C build artifacts
+*.o
+*.out
+smallsh
+
+# System files
+.DS_Store
+.vscode/
+*~
+
+# Build directories
+build/
+debug/
+release/
+
+# Binary files
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Debug files
+*.dSYM/
