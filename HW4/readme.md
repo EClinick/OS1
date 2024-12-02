@@ -16,3 +16,5 @@ To compile the program, ensure you have `gcc` installed on your system. Use the 
 ```bash
 gcc -pthread -o line_processor line_processor.c
 ```
+
+## Test bash
