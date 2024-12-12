@@ -4,27 +4,27 @@ CS374-OS1
 ## Table of Contents
 1. [Overview](#overview)
 2. [Assignments](#assignments)
-    - [HW1: Movie Data Processing](#hw1)
+    - [HW1: Movie Data Processing](#hw1-movie-data-processing)
         - C Implementation
         - Rust Implementation
         - Features
             * Movie Year Search
             * Rating Analysis
             * Language Search
-    - [HW2: File Directory Processing](#hw2)
+    - [HW2: File Directory Processing](#hw2-file-directory-processing)
         - C Implementation
         - Rust Implementation
         - File Organization System
-    - [HW3: Small Shell](#hw3)
+    - [HW3: Small Shell](#hw3-small-shell-smallsh)
         - Built-in Commands
         - Process Management
         - Signal Handling
         - Variable Expansion
-    - [HW4: Multi-threaded Line Processor](#hw4)
+    - [HW4: Multi-threaded Line Processor](#hw4-multi-threaded-line-processor)
         - Thread Pipeline
         - Buffer Management
         - Producer-Consumer Implementation
-    - [HW5: One-Time Pad System](#hw5)
+    - [HW5: One-Time Pad System](#hw5-one-time-pad-encryption)
         - Encryption Server/Client
         - Decryption Server/Client
         - Key Generation
