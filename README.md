@@ -35,8 +35,6 @@ This repository contains 5 programming assignments (HW1-HW5) implementing variou
 
 ## Assignments
 
-## Assignments
-
 ### HW1: Movie Data Processing
 #### Implementation Details:
 - **C Version:**
